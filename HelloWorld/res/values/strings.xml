@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">MyActivity</string>
+    <string name="first_btn">First Button</string>
+    <string name="second_btn">Second Button</string>
+
 </resources>
