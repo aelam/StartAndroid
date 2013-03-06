@@ -12,6 +12,8 @@ import android.widget.SimpleAdapter;
 
 public class SecondActivity extends ListActivity {
 
+	// 测试ListView
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -39,7 +41,7 @@ public class SecondActivity extends ListActivity {
 	    List<Map<String,Object>> list=new ArrayList<Map<String, Object>>(3);   
         Map<String, Object> map = new HashMap<String, Object>();   
         map.put("BigText", "Android");   
-        map.put("LittleText", "Google phone.");   
+        map.put("LittleText", "Google phone.Very long Text Google phone.Very long Text Google phone.Very long Text Google phone.Very long Text Google phone.Very long Text Google phone.Very long Text Google phone.Very long Text ");   
         map.put("img", R.drawable.prov);   
         list.add(map);   
  

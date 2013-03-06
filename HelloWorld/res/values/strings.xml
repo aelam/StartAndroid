@@ -9,5 +9,8 @@
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_first">FirstActivity</string>
     <string name="button1_text">button1 text</string>
+    <string name="title_activity_hash_list_acitivity">HashListAcitivity</string>
+    <string name="title_activity_first_tab">FirstTabActivity</string>
+    <string name="title_activity_custom_list">CustomListActivity</string>
 
 </resources>

@@ -6,7 +6,9 @@
 
     <!-- <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/> -->
     <!-- <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/> -->
-    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
         android:icon="@drawable/ic_launcher"
@@ -37,6 +39,22 @@
         <activity
             android:name="com.example.HelloWorld.FirstActivity"
             android:label="@string/title_activity_first" >
+        </activity>
+        <activity
+            android:name="com.example.HelloWorld.HashListAcitivity"
+            android:label="@string/title_activity_hash_list_acitivity" >
+        </activity>
+        <activity
+            android:name="com.example.HelloWorld.FirstTabActivity"
+            android:label="@string/title_activity_first_tab" >
+        </activity>
+        <activity
+            android:name="com.example.HelloWorld.CustomListActivity"
+            android:label="@string/title_activity_custom_list"
+            android:parentActivityName="android.app.ListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.app.ListActivity" />
         </activity>
     </application>
 
